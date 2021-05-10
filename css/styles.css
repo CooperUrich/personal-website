@@ -1,0 +1,33 @@
+
+body {
+  margin: 0;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+div {
+  background-color: #d8e3e7;
+}
+
+.top-container {
+  background-color: #d8e3e7;
+}
+
+.middle-container {
+  background-color: #51c4d3;
+}
+
+.bottom-container{
+  background-color: #132c33;
+  }
+/* Class Selectors start with ., ex. .class
+   can be used for any tag
+   can have multiple classes for a tag
+*/
+/* ID Selectors start with #, ex. #ID
+    These are very specific, can only be used in
+    a single tag
+    only one ID per tag
+*/

@@ -36,10 +36,15 @@ hr {
   width: 10%;
 }
 
+.introduction {
+  text-align: center;
+}
+
 .my-skills {
   color: #51c4d3;
   margin-top: 100px;
 }
+
 .top-container {
   background-color: #d8e3e7;
   position: relative;
@@ -56,6 +61,7 @@ hr {
   margin: 100px auto 100px auto;
   width: 50%;
   line-height: 2;
+  /* display:inline; */
 }
 
 .bottom-cloud {
@@ -77,6 +83,7 @@ hr {
   margin-right: 30px;
   border-radius: 20%;
   height: 200px;
+  display: inline;
 }
 
 .right-float {
@@ -84,6 +91,7 @@ hr {
   height: 200px;
   margin: 20px;
   border-radius: 10%;
+  display: inline;
 }
 
 .right-float-html {
@@ -92,12 +100,13 @@ hr {
   margin: 20px;
   margin-bottom: 20px;
   border-radius: 10%;
+  display: inline;
 }
-
 
 .skill-heading {
   color: #51c4d3;
   font-weight: bold;
+  display: inline;
 }
 
 .in-touch {
@@ -105,54 +114,73 @@ hr {
 }
 
 .contact-me-btn {
-   background: #126E82;
-   background-image: -webkit-linear-gradient(top, #126E82, #132C33);
-   background-image: -moz-linear-gradient(top, #126E82, #132C33);
-   background-image: -ms-linear-gradient(top, #126E82, #132C33);
-   background-image: -o-linear-gradient(top, #126E82, #132C33);
-   background-image: -webkit-gradient(to bottom, #126E82, #132C33);
-   -webkit-border-radius: 20px;
-   -moz-border-radius: 20px;
-   border-radius: 20px;
-   height: 14px;
-   line-height: 14px;
-   color: #51C4D3;
-   font-family: Arial;
-   width: 185px;
-   font-size: 20px;
-   font-weight: 900;
-   padding: 12px;
-   -webkit-box-shadow: 1px 1px 6px 0 #000000;
-   -moz-box-shadow: 1px 1px 6px 0 #000000;
-   box-shadow: 1px 1px 6px 0 #000000;
-   text-shadow: 1px 1px 6px #000000;
-   text-decoration: none;
-   display: inline-block;
-   cursor: pointer;
-   text-align: center;
-   margin-bottom: 50px;
+  background: #51c4d3;
+
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  height: 14px;
+  line-height: 14px;
+  color: white;
+  font-family: Arial;
+  width: 185px;
+  font-size: 20px;
+  font-weight: 900;
+  padding: 12px;
+  -webkit-box-shadow: 1px 1px 6px 0 #000000;
+  -moz-box-shadow: 1px 1px 6px 0 #000000;
+  text-shadow: 1px 1px 6px #000000;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  margin-bottom: 50px;
 }
 
 .contact-me-btn:hover {
-   background: #126E82;
-   background-image: -webkit-linear-gradient(top, #132C33, #126E82);
-   background-image: -moz-linear-gradient(top, #132C33, #126E82);
-   background-image: -ms-linear-gradient(top, #132C33, #126E82);
-   background-image: -o-linear-gradient(top, #132C33, #126E82);
-   background-image: -webkit-gradient(to bottom, #132C33, #126E82);
-   -webkit-border-radius: 20px;
-   -moz-border-radius: 20px;
-   border-radius: 20px;
-   text-decoration: none;
+  background: #d8e3e7;
+  text-decoration: none;
 }
+
+.links {
+  background: #51c4d3;
+
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  height: 14px;
+  line-height: 14px;
+  color: white;
+  font-family: Arial;
+  width: 185px;
+  font-size: 20px;
+  font-weight: 900;
+  padding: 12px;
+  -webkit-box-shadow: 1px 1px 6px 0 #000000;
+  -moz-box-shadow: 1px 1px 6px 0 #000000;
+  text-shadow: 1px 1px 6px #000000;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  margin: 10px;
+}
+
+.links:hover {
+  background: #d8e3e7;
+  text-decoration: none;
+}
+
 .footer-link {
   font-size: 30px;
   margin: 20px;
   color: #51C4D3;
 }
+
 .footer-link:visited {
   color: #132c33;
 }
+
 .cooper {
   color: white;
 }

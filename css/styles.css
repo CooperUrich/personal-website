@@ -36,13 +36,18 @@ hr {
   width: 10%;
 }
 
+.hello {
+  color: #126e82;
+  margin: 20px;
+}
+
 .introduction {
   text-align: center;
 }
 
-.my-skills {
-  color: #51c4d3;
-  margin-top: 100px;
+.heading {
+  color: #126e82;
+  margin-top: 50px;
 }
 
 .top-container {
@@ -50,7 +55,9 @@ hr {
   position: relative;
 }
 
-.middle-container {}
+.middle-container {
+  padding-bottom: 20px;
+}
 
 .bottom-container {
   background-color: #126e82;
@@ -58,7 +65,7 @@ hr {
 
 .skill-row {
   text-align: left;
-  margin: 100px auto 100px auto;
+  margin: 50px auto 100px auto;
   width: 50%;
   line-height: 2;
   /* display:inline; */
@@ -109,26 +116,35 @@ hr {
   display: inline;
 }
 
+.job-title {
+  color: #132c33;
+}
+
 .in-touch {
   color: #51c4d3;
 }
 
+.experience {
+  padding: 10px;
+}
+
 .contact-me-btn {
   background: #51c4d3;
-
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
+  border-color: black;
   border-radius: 20px;
   height: 14px;
   line-height: 14px;
   color: white;
   font-family: Arial;
   width: 185px;
+  height: auto;
   font-size: 20px;
   font-weight: 900;
   padding: 12px;
-  -webkit-box-shadow: 1px 1px 6px 0 #000000;
-  -moz-box-shadow: 1px 1px 6px 0 #000000;
+  /* -webkit-box-shadow: 1px 1px 6px 0 #000000;
+  -moz-box-shadow: 1px 1px 6px 0 #000000; */
   text-shadow: 1px 1px 6px #000000;
   text-decoration: none;
   display: inline-block;
@@ -138,13 +154,13 @@ hr {
 }
 
 .contact-me-btn:hover {
+  color: #51c4d3;
   background: #d8e3e7;
   text-decoration: none;
 }
 
 .links {
   background: #51c4d3;
-
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   border-radius: 20px;
@@ -153,6 +169,7 @@ hr {
   color: white;
   font-family: Arial;
   width: 185px;
+  height: auto;
   font-size: 20px;
   font-weight: 900;
   padding: 12px;
@@ -167,6 +184,7 @@ hr {
 }
 
 .links:hover {
+  color: #51c4d3;
   background: #d8e3e7;
   text-decoration: none;
 }
@@ -183,6 +201,10 @@ hr {
 
 .cooper {
   color: white;
+}
+
+.skyline {
+  width: screen.width;
 }
 
 /* Class Selectors start with ., ex. .class

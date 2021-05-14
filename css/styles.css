@@ -14,7 +14,7 @@ h1 {
 
 h2 {
   font-weight: bold;
-  color: #51c4d3;
+  color: #126e82;
 }
 
 h3 {
@@ -164,7 +164,7 @@ hr {
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   border-radius: 20px;
-  height: 14px;
+  height: auto;
   line-height: 14px;
   color: white;
   font-family: Arial;
